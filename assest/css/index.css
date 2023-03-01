@@ -1,0 +1,64 @@
+/* Navbar Hissesi */
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+
+}
+.left{
+    background-color: #0e4c75;
+    height: 100vh;
+}
+nav img{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+span{
+    color: white;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding:10px;
+}
+.left ul li:hover{
+    background-color:#b6d3fb ;
+}
+a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* right */
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right header ul li{
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    height: 70px;
+}
+ .right-main{
+    background:#b6d3fb;
+    width: 169.7vh;
+    height: 90.7vh;
+
+}
+.right span{
+    color: black;
+    margin-right: 5px;
+}
